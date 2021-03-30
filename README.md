@@ -74,7 +74,7 @@
 
    - Los generadores trifásicos resultan más eficientes a la hora de aplicarse a diferencia de los generadores monofásicos. Esto debido a que los generadores trifásicos permiten un mayor valor de potencia total ya que consta de 3 diferentes conexiones (sin contar la conexion neutral que sería la cuarta), y por cada una existe una potencia dirigida a una carga. Además, los generadores trifásicos son mejores en la aplicación ya que permiten una menor consideración en lo que respecta la sección transversal del cable de cobre.
 
-   - Existen cuatro tipos de sistemas entre generador y carga, las cuales dependen de su forma de conexión (ya sea en forma Y o en forma Δ). Pero cada uno de estos sistemas tiene sus respectivas funciones las cuales dependen de lo que se desea aplicar, Por ejemplo si se desea que la corriente que legue a una carga sea igual a la corriente de fase y que esta no disminuyas, se debe aplicar un sistema Y-Y, ya que este permite que se dé esto gracias a sus características.
+   - Existen cuatro tipos de sistemas entre generador y carga, las cuales dependen de su forma de conexión (ya sea en forma Y o en forma Δ). Pero cada uno de estos sistemas tiene sus respectivas funciones las cuales dependen de lo que se desea aplicar, Por ejemplo si se desea que la corriente que llegue a una carga sea igual a la corriente de fase y que esta no disminuya, se debe aplicar un sistema Y-Y, ya que este permite que se dé esto gracias a sus características.
 
 
 
