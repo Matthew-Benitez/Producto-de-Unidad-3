@@ -16,57 +16,42 @@
 
 3. DESARROLLO
 
-
+    ![Ejercicios PU 3_Página_01](https://user-images.githubusercontent.com/75439689/112991744-17930900-912d-11eb-9161-2b5bab2f5a11.jpg)
+    ![Ejercicios PU 3_Página_02](https://user-images.githubusercontent.com/75439689/112991748-182b9f80-912d-11eb-8118-fdd0b7a98ee2.jpg)
+    ![Ejercicios PU 3_Página_03](https://user-images.githubusercontent.com/75439689/112991754-18c43600-912d-11eb-98b7-c46ca738be59.jpg)
+    ![Ejercicios PU 3_Página_04](https://user-images.githubusercontent.com/75439689/112991756-18c43600-912d-11eb-986e-7786f1ce741b.jpg)
+    ![Ejercicios PU 3_Página_05](https://user-images.githubusercontent.com/75439689/112991757-195ccc80-912d-11eb-8ab3-dcec7e167a62.jpg)
+    ![Ejercicios PU 3_Página_06](https://user-images.githubusercontent.com/75439689/112991759-19f56300-912d-11eb-81f8-9c6ce97b21f2.jpg)
+    ![Ejercicios PU 3_Página_07](https://user-images.githubusercontent.com/75439689/112991723-1366eb80-912d-11eb-9529-d6978980c9c3.jpg)
+    ![Ejercicios PU 3_Página_08](https://user-images.githubusercontent.com/75439689/112991730-1530af00-912d-11eb-8610-d091116a96f4.jpg)
+    ![Ejercicios PU 3_Página_09](https://user-images.githubusercontent.com/75439689/112991735-15c94580-912d-11eb-8d30-6002ca44f14b.jpg)
+    ![Ejercicios PU 3_Página_10](https://user-images.githubusercontent.com/75439689/112991737-1661dc00-912d-11eb-8887-0b579c320819.jpg)
+    ![Ejercicios PU 3_Página_11](https://user-images.githubusercontent.com/75439689/112991740-1661dc00-912d-11eb-86b8-5dd5ee65a472.jpg)
+    ![Ejercicios PU 3_Página_12](https://user-images.githubusercontent.com/75439689/112991742-16fa7280-912d-11eb-9a00-c340f4e3db85.jpg)
 
 4. LISTA DE COMPONENTES
 
-![image](https://user-images.githubusercontent.com/75439689/109887556-f0d9d380-7c4f-11eb-9c05-1e1f932c03e3.png)
+   ![image](https://user-images.githubusercontent.com/75439689/112990649-e960f980-912b-11eb-835b-ee408d2ff228.png)
 
-*Ejercicio 14 a)*
-
-![image](https://user-images.githubusercontent.com/75439689/109887613-0949ee00-7c50-11eb-9072-a4000eb4b27c.png)
-
-*Ejercicio 14 c)*
+   *Generador Trifásico*
 
 5. EXPLICACIÓN
 
-   5.1.- El ejercicio a resolver es el 14 a) que nos pide hallar la impedancia Zl para tener la máxima transferencia de potencia, para ello primero calculamos la impedancia capacitiva que es 11.287 kΩ. Ahora tenemos la impedancia total del circuito que es: 6.8 - j1.128 kΩ. El teorema nos dice que para tener la transferencia de potencia máxima se necesita del complejo conjugado, es decir, para este ejercicio necesitamos en Zl una impedancia de 6.8 + j11.287 kΩ. Para lograr obtener esta impedancia Zl debe tener un resistor de 6.8 kΩ y un inductor con impedancia inductiva de 11.287 kΩ, para ello simplemente la calculamos con la formula de ImpedanciaInductiva=2πfL, donde despejamos L y tenemos que el inductor tiene un valor de 0.5988 H, que aproximándolo es un inductor de 0.6 H. Con estos valores procedemos a realizar nuestra simulación y comprobamos que con ese Zl obtenemos la áxima transferencia de potencia.
-   
-   5.2.- El ejercicio 15 c) consta de un inductor y un capacitor, para analizar este problema utilizamos el teorema de Thévenin y primero vemos que el inductor y el capacitor están en paralelo, para poder sacar una impedancia equivalente calculamos la impedancia inductiva y la capacitiva, dándonos como resultado Xc=60.286Ω y Xl=75.398Ω, ahora hacemos una suma en forma paralela de ambos y obtenemos que la impedancia es de 300.78Ω, la impedancia total nos da: 50 - j300.78, y para obtener la máxima transferencia de potencia utilizamos la conjugada de esta, es decir, necesitamos una impedancia de 50 + j300.78, en otras palabras, necesitamos en Zl un resistor de 50 Ω y un inductor con impedancia inductiva de 300.78Ω, para determinar el valor del inductor utilizamos la formula Xl=2πfL, y despejamos L, quedándonos un L de 0.4 H. Con estos valores procedemos a realizar nuestra simulación y comprobamos que con ese Zl obtenemos la áxima transferencia de potencia.
+   5.1.- Para la construcción del generador trifásico se utilizaron tres fuentes de voltaje ca. conectados en paralelo, estos mismos luego serán conectados en serie, por cada rama, un resistor y un inductor, se repite 3 veces este proceso para poder conectar las 3 fuentes de voltaje, y por último el sistema será cerrado en forma de paralelo para poder terminar el sistema trifásico. Luego de haber terminado el generador trifásico, procedemos a conectar los medidors, concectamos los voltímetros de manera en paralelo entre las terminales R y N, y en las terminales R y T, con esto podemos observar el voltaje de carga. Y por último, para observar que el generador trifásico, utilizamos el osciloscopio, y lo conectamos con los 3 generadores de voltaje, luego configuramos la gráfica para que los funciones sinusoidales estén al mismo nivel.
    
 6. APORTACIONES
 
-   6.1.1. Circuito 14 a)
+   6.1.1. Materiales del Circuito
+   
+   
 
-![image](https://user-images.githubusercontent.com/75439689/109889063-a443c780-7c52-11eb-8bdd-f0c960168e36.png)
+   6.1.2. Circuito Armado
+   
+   
 
-   6.1.2. Materiales del Circuito
-
-![image](https://user-images.githubusercontent.com/75439689/109889231-f4228e80-7c52-11eb-926a-00f27227b7b6.png)
-
-   6.1.3. Circuito Armado
-
-![image](https://user-images.githubusercontent.com/75439689/109889301-14524d80-7c53-11eb-8b20-be4c48a3f660.png)
-
-   6.1.4. Potencia Máxima del Circuito
-
-![image](https://user-images.githubusercontent.com/75439689/109889352-35b33980-7c53-11eb-81d3-e9c3a4d8f86c.png)
-
-   6.2.1. Circuito 14 c)
-
-![image](https://user-images.githubusercontent.com/75439689/109889399-4d8abd80-7c53-11eb-998f-2153f46d7a54.png)
-
-   6.2.2. Materiales del Circuito
- 
-![image](https://user-images.githubusercontent.com/75439689/109889535-8f1b6880-7c53-11eb-9f78-88742295d905.png)
-
-   6.2.3. Circuito Armado
-
-![image](https://user-images.githubusercontent.com/75439689/109889587-aa867380-7c53-11eb-9313-1ffbd5c22bd6.png)
-
-   6.2.4. Potencia Máxima del Circuito
-
-![image](https://user-images.githubusercontent.com/75439689/109889687-de619900-7c53-11eb-9b6f-59abf885730b.png)
+   6.1.3. Circuito Medido
+   
+   ![image](https://user-images.githubusercontent.com/75439689/112990181-62ac1c80-912b-11eb-9a22-77853049b29e.png)
 
 7. Conclusiones
 
