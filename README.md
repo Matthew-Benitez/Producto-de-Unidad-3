@@ -43,11 +43,11 @@
 
    6.1.1. Materiales del Circuito
    
-   
+   ![image](https://user-images.githubusercontent.com/75439689/113001413-68f3c600-9136-11eb-8378-97427233cbeb.png)
 
    6.1.2. Circuito Armado
    
-   
+   ![image](https://user-images.githubusercontent.com/75439689/113001429-6d1fe380-9136-11eb-90d8-b8880f46038c.png)
 
    6.1.3. Circuito Medido
    
