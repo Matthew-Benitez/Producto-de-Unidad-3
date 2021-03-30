@@ -70,11 +70,12 @@
 
 7. Conclusiones
 
-   - El teorema de la máxima transferencia de potencia para una impedancia de carga ZL, se da únicamente cuando el circuito está formado por la conexión en serie de una fuente de voltaje (Vs), una impedancia de salida (Zsal) y la misma impedancia de carga. De no tener esa forma, el teorema es inaplicable.
+   - Las aplicaciones de los campos magnéticos en circuitos eléctricos es fundamental en el desarrollo de estos, ya que como se ha podido apreciar, gracias a las bobinas y su movimiento dentro de un campo magnético, se obtiene un generador con voltajes en fases distintas, lo que permite diversas fuentes de salida.
 
-   - El valor de ZL para que sea transferido la potencia máxima, es igual al complejo conjugado de Zsal, es decir, que tiene los mismos valores de las magnitudes tanto de resistencia (parte real del número complejo) como de reactancia (parte imaginaria), pero esta última debe estar con el signo opuesto.
+   - Los generadores trifásicos resultan más eficientes a la hora de aplicarse a diferencia de los generadores monofásicos. Esto debido a que los generadores trifásicos permiten un mayor valor de potencia total ya que consta de 3 diferentes conexiones (sin contar la conexion neutral que sería la cuarta), y por cada una existe una potencia dirigida a una carga. Además, los generadores trifásicos son mejores en la aplicación ya que permiten una menor consideración en lo que respecta la sección transversal del cable de cobre.
 
-   - El teorema de Thévenin se relaciona directamente con el teorema de la máxima transferencia de potencia, ya que para poder aplicar dicho teorema de potencia, el circuito debe tener la forma del circuito de equivalente de Thévenin.
+   - Existen cuatro tipos de sistemas entre generador y carga, las cuales dependen de su forma de conexión (ya sea en forma Y o en forma Δ). Pero cada uno de estos sistemas tiene sus respectivas funciones las cuales dependen de lo que se desea aplicar, Por ejemplo si se desea que la corriente que legue a una carga sea igual a la corriente de fase y que esta no disminuyas, se debe aplicar un sistema Y-Y, ya que este permite que se dé esto gracias a sus características.
+
 
 
 8. Bibliografía
