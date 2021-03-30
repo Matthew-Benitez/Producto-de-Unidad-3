@@ -9,6 +9,9 @@
       
 2. MARCO TEÓRICO
 
+![0001 (11)](https://user-images.githubusercontent.com/76133212/112942916-6c675d00-90f6-11eb-9df7-45cd58a3b6cb.jpg)
+![0001 (12)](https://user-images.githubusercontent.com/76133212/112942922-6e312080-90f6-11eb-9b12-d33e9cb2469b.jpg)
+![0001 (13)](https://user-images.githubusercontent.com/76133212/112942930-6f624d80-90f6-11eb-8124-31a45c347f2b.jpg)
 
 
 3. DESARROLLO
